@@ -1,0 +1,180 @@
+body {
+  background-color: #f4f5f8;
+}
+
+span {
+  font-size: 18px !important;
+}
+
+.header-container {
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  padding: 20px;
+  z-index: 1;
+}
+
+.dropdown-menu {
+  display: none;
+}
+
+.dropdown-content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f1f1;
+  min-width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 20px 20px 0 20px;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.dropdown-content>* {
+  margin-bottom: 1rem;
+}
+
+.container {
+  margin-top: 70px;
+  display: flex;
+}
+
+.container .col {
+  margin: 15px;
+  min-width: 250px;
+  width: 20% !important;
+}
+
+.container div .head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container div .head .left>*,
+.container div .head .right>* {
+  margin-left: 10px;
+}
+
+.container div .head .left {
+  text-align: left;
+}
+
+.container div .head .right {
+  text-align: right;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 3px 25px 20px 25px;
+}
+
+.card div:nth-child(1) {
+  height: 30px;
+}
+
+.tag,
+.tag svg {
+  fill: #898c91;
+  color: #898c91 !important;
+}
+
+.avatar {
+  position: relative;
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  font-size: 1rem;
+}
+
+.avatar-indicators:before {
+  content: "";
+  position: absolute;
+  bottom: 1%;
+  right: 5%;
+  width: 28%;
+  height: 28%;
+  border-radius: 50%;
+  border: none;
+}
+
+.avatar[status="false"]::before {
+  background-color: #506690;
+}
+.avatar-offline:before {
+  background-color: #009688;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.border {
+  border: 1px solid #a8a8a8;
+  padding: 5px;
+}
+
+.border-round {
+  border-radius: 5px;
+}
+
+.rounded-circle {
+  border-radius: 50%!important;
+}
+
+.text-muted {
+  fill: #989a9e;
+  color: #989a9e;
+}
+
+select {
+  width: 100px;
+}
+
+svg.primary {
+  fill: #4361ee
+}
+
+svg.warning {
+  fill: #e2a03f
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.ml-5 {
+  margin-left: 5px;
+}
+
+.pt-10 {
+  padding-top: 10px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.btn>* {
+  margin-left: 5px;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.justify-content-between {
+  justify-content: space-between !important;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
